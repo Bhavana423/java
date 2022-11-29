@@ -1,0 +1,16 @@
+import java.util.*;
+public class Avg
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        float a= sc.nextFloat();
+        float b= sc.nextFloat();
+        float c= sc.nextFloat();
+        float d= sc.nextFloat();
+        float e= sc.nextFloat();
+        float f= a+b+c+d+e;
+        float g=f/5;
+        System.out.printf("%.2f",g);
+    }
+}
