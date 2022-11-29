@@ -1,0 +1,16 @@
+import java.util.*;
+public class Pow
+{
+    public static void main(String args[])
+    {
+       double X,N;
+       int pow;
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter the base");
+       X=sc.nextInt();
+       System.out.println("enter the pow");
+       N=sc.nextInt();
+       pow=(int)Math.pow(X,N);
+       System.out.println("The power of the no "+pow);
+    }
+}
