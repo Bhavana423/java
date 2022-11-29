@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Area
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        float d=sc.nextFloat();
+        int e=a*a;
+        int f=b*c;
+        float g=d*d;
+        double h=3.14*g;
+        System.out.println(e);
+        System.out.println(f);
+        System.out.printf("%.2f",h);
+    }
+}
