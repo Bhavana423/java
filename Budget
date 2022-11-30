@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class Budget
+{
+    public static void main(String args[])
+    {
+        Scanner sc= new Scanner(System.in);
+        double b=350.34;
+        double v=230.90;
+        double a1=190.55;
+        double a2=125.30;
+        double l=180.90;
+        int A= sc.nextInt();
+        int B= sc.nextInt();
+        int C= sc.nextInt();
+        int D= sc.nextInt();
+        int E= sc.nextInt();
+        double A1=A*b;
+        double B1=B*v;
+        double C1=C*a1;
+        double D1=D*a2;
+        double E1=E*l;
+        double t=A1+B1+C1+D1+E1;
+        if(t<=15000)
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+        
+    }
+}
