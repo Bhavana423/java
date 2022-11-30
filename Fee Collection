@@ -1,0 +1,48 @@
+import java.util.Scanner;
+public class Fee
+{
+    public static void main(String args[])
+    {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the student type");
+    String n=sc.nextLine();
+    switch(n){
+    case "MSDS":
+        System.out.println("Enter tuition fee ");
+        float t=sc.nextFloat();
+        System.out.println("Enter bus fee");
+        float b=sc.nextFloat();
+        float a=t+b;
+        System.out.printf("The fees to be paid by the student is Rs.%.2f",a);
+        break;       
+    case "MSH":
+        System.out.println("Enter tuition fee ");
+        float c=sc.nextFloat();
+        System.out.println("Enter hostel fee");
+        float d=sc.nextFloat();
+        float e=c+d;
+        System.out.printf("The fees to be paid by the student is Rs.%.2f",e);
+        break;
+    case "MGSDS":    
+        System.out.println("Enter tuition fee ");
+        float t3=sc.nextFloat();
+        float t1=t3/2;
+        float t2=t3+t1;
+        System.out.println("Enter bus fee");
+        float b1=sc.nextFloat();
+        float a1=t2+b1;
+        System.out.printf("The fees to be paid by the student is Rs.%.2f",a1);
+        break;
+    case "MGSH":
+        System.out.println("Enter tuition fee ");
+        float t4=sc.nextFloat();
+        float t5=t4/2;
+        float t6=t4+t5;
+        System.out.println("Enter hostel fee");
+        float b2=sc.nextFloat();
+        float a2=t6+b2;
+        System.out.printf("The fees to be paid by the student is Rs.%.2f",a2);
+        break;
+}
+}
+}
