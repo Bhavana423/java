@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Game
+{
+    public static void main(String args[])
+    {
+       Scanner sc=new Scanner(System.in);
+       int a= sc.nextInt();
+       int b= sc.nextInt();
+       int c= sc.nextInt();
+       int d= sc.nextInt();
+       int e= sc.nextInt();
+       int f= sc.nextInt();
+       int h=c+f;
+       int i=d+f;
+       if(a>=h && b>=i){
+           System.out.println("Karthi can fix both painting");
+       }
+       else{
+           System.out.println("Karthi cannot fix both painting");
+       }
+       
+    }
+}
