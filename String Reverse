@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class String4
+{
+    public static void main(String agrs[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        StringBuffer b=new StringBuffer(s);
+        System.out.println(b.reverse());
+    }
+}
