@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Array
+{
+    public static void main(String args[]) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter 10 numbers");
+        int a[]=new int[10];
+        a[0]=sc.nextInt();
+        a[1]=sc.nextInt();
+        a[2]=sc.nextInt();
+        a[3]=sc.nextInt();
+        a[4]=sc.nextInt();
+        a[5]=sc.nextInt();
+        a[6]=sc.nextInt();
+        a[7]=sc.nextInt();
+        a[8]=sc.nextInt();
+        a[9]=sc.nextInt();
+        System.out.println("List of even numbers");
+        for(int i=0;i<10;i++){
+            if(a[i]%2==0){
+                System.out.printf("%d ",a[i]);
+            }
+        }
+    }
+}
+
+//code here
