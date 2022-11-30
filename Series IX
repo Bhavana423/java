@@ -1,0 +1,15 @@
+import java.util.*;
+public class Series9
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        long a= sc.nextInt();
+        System.out.print("2" +" ");
+        long s=2;
+        for(int i=1;i<a;i++){
+            s=s*s-1;
+            System.out.print(s +" ");
+        }
+    }
+}
