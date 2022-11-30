@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Perfect
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a= sc.nextInt();
+        int b,c=0;
+        for(int i=1;i<a;i++){
+            b=a%i;
+            if(b==0){
+                c=c+i;
+            }
+            }
+            if(a==c)
+            {
+                System.out.println(" Perfect Number");
+            }
+            else
+            {
+                System.out.println("Not a perfect Number");
+            }
+    }
+}
