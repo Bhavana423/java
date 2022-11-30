@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class Dine
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        int a=sc.nextInt();
+        if(s.equals("front") && (a==1)){
+            System.out.println("Left Handed");
+        }
+        else if(s.equals("front") && (a==2)){
+            System.out.println("Right Handed");
+        }
+        else if(s.equals("rear") && (a==1)){
+            System.out.println("Right Handed");
+        }
+        else if(s.equals("rear") && (a==2)){
+            System.out.println("Left Handed");
+        }
+        else {
+            System.out.println("Invalid input");
+            
+            
+        }
+    }
+}
