@@ -1,0 +1,31 @@
+class Animal
+{
+    public static void dog()
+    {
+        System.out.println("eating");
+    }
+}
+class dog extends Animal
+{
+    public static void bark()
+    {
+        System.out.println("Barking");
+    }
+}
+//first check
+class Inherit extends dog
+{
+    public static void  meou()
+    {
+    System.out.println("meouuuuuuuuuu");
+    }
+
+//second check==main
+ public static void main(String[]args)
+{
+    dog dg=new dog();
+    meou();//meouuuu
+    dg.bark();//barking
+    dg.dog();//eating
+}
+}
