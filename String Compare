@@ -1,0 +1,17 @@
+import java.util.*;
+public class String5
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        String b=sc.nextLine();
+        if(s.equals(b)){
+            System.out.println("Strings are same");
+        }
+        else
+        {
+            System.out.println("Strings are not same");
+        }
+    }
+}
