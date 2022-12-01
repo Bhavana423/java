@@ -1,0 +1,23 @@
+import java.util.*;
+class bus
+{
+    public static int fill(int cap,int on,int wait)
+    {
+        if(cap==(on+wait))
+        {
+            return 0;
+        }
+        else
+        {
+            return on+wait-cap;
+        }
+    }
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int cap=sc.nextInt();
+        int on=sc.nextInt();
+        int wait=sc.nextInt();
+        System.out.println(fill(cap,on,wait));
+}
+}
