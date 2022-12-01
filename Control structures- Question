@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Assessment1
+{
+    public static void main(String agrs[])
+{ 
+    Scanner sc= new Scanner(System.in);
+     int a=sc.nextInt();
+     int b=sc.nextInt();
+     int c=sc.nextInt();
+     int d=b*75;
+     int e=c*50;
+     int f=d+e;
+    if(a>=f) 
+    {
+        System.out.println("Boat is Stable");
+    }
+    else
+    {
+        System.out.println("Boat is Unstable");
+    }
+}
+}
