@@ -1,0 +1,25 @@
+import java.util.*;
+public class Swap
+{
+    public static void main(String args[])
+    {
+        //write your code
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        Swap1 r=new Swap1();
+        r.sort(a,b);
+    }
+}
+class Swap1
+{
+    public static int sort(int a,int b)
+    {
+        int t;
+        t=a;
+        a=b;
+        b=t;
+        System.out.printf("%d\n%d",a,b);
+        return 0;
+    }
+}
