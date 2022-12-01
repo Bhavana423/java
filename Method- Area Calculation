@@ -1,0 +1,26 @@
+import java.util.*;
+public class Area
+{
+    public static void main(String args[])
+    {
+        //write your code
+        Scanner sc=new Scanner(System.in);
+        int s=sc.nextInt();
+        int l=sc.nextInt();
+        int b=sc.nextInt();
+        float r=sc.nextFloat();
+        Area1 g=new Area1();
+        g.sheela(s,l,b,r);
+    }
+}
+class Area1
+{
+    public static int sheela(int s,int l,int b,float r)
+    {
+       int a1=s*s;
+       int a2=l*b;
+       double a3= 3.14*r*r;
+       System.out.printf("%d\n%d\n%.2f",a1,a2,a3); 
+       return 0;
+    }
+}
