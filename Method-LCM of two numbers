@@ -1,0 +1,38 @@
+mport java.util.Scanner;
+public class Lcm
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        Product p=new Product();
+        p.size(a,b);
+    }
+}
+class Product
+{
+    public static int size(int a,int b)
+    {
+       int max,x,lcm=0;
+       if(a>b)
+        {
+            max=x=a;
+        }
+        else
+        {
+            max=x=b;
+        }
+        while(a!=0)
+        {
+            if(max % a==0 && max % b==0)
+            {
+                lcm=max;
+                break;
+            }
+            max +=x;
+        }
+        System.out.print("LCM of " + a + " and " + b + " is "+lcm);
+        return 0;
+    }
+}
