@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class ProDiv
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        Sum s=new Sum();
+        s.size(a,b);
+    }
+}
+class Sum
+{
+    public static int size(int a,int b)
+    {
+        int d,e,f;
+        d=a*b;
+        e=a/b;
+        f=a%b;
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        return 0;
+    }
+}
