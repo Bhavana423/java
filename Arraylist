@@ -1,0 +1,14 @@
+
+import java.util.ArrayList;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        //classname objname=new classname();
+        ArrayList<String>al=new ArrayList<String>();
+        //new generic Object;
+        //ArrayList al=new ArrayList();\\non-generic Object;
+        //add elements to our list;
+        System.out.println(al.isEmpty());
+    }
+}
