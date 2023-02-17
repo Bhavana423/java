@@ -1,0 +1,22 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        ArrayList<String> s=new ArrayList<String>();
+        s.add("Cow");
+        s.add("Cat");
+        s.add("Dog");
+        System.out.println("ArrayList:  "+s);
+        String[] str=new String[s.size()];
+        for(int i=0;i<s.size();i++)
+        {
+            str[i]=s.get(i);
+        }
+        for(int i=0;i<s.size();i++)
+        {
+            System.out.println("Accessing individual elements:  "+str[i]);
+            
+        }
+    }
+}
