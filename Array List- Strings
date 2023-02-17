@@ -1,0 +1,12 @@
+import java.util.*;
+public class Array
+{
+    public static void main(String[]args)
+    {
+        ArrayList<String> sc=new ArrayList<String>();
+        sc.add("Java");
+        sc.add("Python");
+        sc.add("Swift");
+        System.out.println("ArrayList:  "+sc);
+    }
+}
