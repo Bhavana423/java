@@ -1,0 +1,14 @@
+import java.util.*;
+public class Array3
+{
+    public static void main(String[]args)
+    {
+        ArrayList<String> s=new ArrayList<String>();
+        s.add("Java");
+        s.add("Kotlin");
+        s.add("C++");
+        System.out.println("ArrayList:  "+s);
+        s.set(2,"JavaScript");
+         System.out.println("Modified ArrayList:  "+s);
+    }
+}
