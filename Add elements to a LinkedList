@@ -1,0 +1,14 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        LinkedList<String> list=new LinkedList<String>();
+        list.add("Dog");
+        list.add("Cat");
+        list.add("Cow");
+        System.out.println("LinkedList:  "+list);
+        list.set(2,"Horse");
+        System.out.println("Updated LinkedList: "+list);
+    }
+}
