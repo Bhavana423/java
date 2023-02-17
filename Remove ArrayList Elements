@@ -1,0 +1,20 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        ArrayList<String> s=new ArrayList<String>();
+        s.add("Dog");
+        s.add("Cat");
+        s.add("Horse");
+        System.out.println("Arraylist:  "+s);
+         String[] str=new String[s.size()];
+         for(int i=0;i<s.size();i++)
+         {
+             str[i]=s.get(i);
+         }
+         s.remove(2);
+         System.out.println("Updated ArrayList:  "+s);
+         System.out.println("Removed Element:  "+str[2]);
+    }
+}
