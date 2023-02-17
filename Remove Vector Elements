@@ -1,0 +1,17 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        Vector<String> cs=new Vector();
+        cs.add("Dog");
+        cs.add("Horse");
+        cs.add("Cat");
+        System.out.println("Initial Vector: "+cs);
+        System.out.println("Removed Vector: "+cs.get(1));
+        cs.remove(1);
+        System.out.println("New Vector: " +cs);
+        cs.clear();
+        System.out.println("Vector after clear: " +cs);
+    }
+}
