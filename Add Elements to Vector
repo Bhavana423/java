@@ -1,0 +1,14 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        Vector<String> cs=new Vector();
+        cs.add("Dog");
+        cs.add("Horse");
+        cs.add("Cat");
+        System.out.println("Vector:  "  +cs);
+        cs.add(0,"Crocodile");
+        System.out.println("New Vector: " +cs);
+    }
+}
