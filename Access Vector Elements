@@ -1,0 +1,13 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args)
+    {
+        Vector<String> cs=new Vector();
+        cs.add("Dog");
+        cs.add("Horse");
+        cs.add("Cat");
+        System.out.println("Element at index 2:" +cs.get(2));
+        System.out.println("Vector: "+cs);
+    }
+}
