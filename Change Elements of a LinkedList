@@ -1,0 +1,14 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args){
+    LinkedList<String> list=new LinkedList();
+    list.add("Java");
+    list.add("Python");
+    list.add("JavaScript");
+    list.add("Java");
+    System.out.println("LinkedList:  "+list);
+    list.set(3,"kotlin");
+    System.out.println("Updated LinkedList"+list);
+}
+}
