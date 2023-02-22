@@ -1,0 +1,12 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        ArrayDeque<String> cs=new ArrayDeque<String>();
+        cs.offer("Cat");
+        cs.offerFirst("Dog");
+        cs.offerLast("Horse");
+        System.out.println("ArrayDeque:  "+cs);
+    }
+}
