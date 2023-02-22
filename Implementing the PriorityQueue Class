@@ -1,0 +1,16 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        Queue<Integer> q=new PriorityQueue<Integer>();
+        q.add(1);
+        q.add(5);
+        q.add(2);
+        System.out.println("Queue:  "+q);
+        int cs=q.remove();
+        System.out.println("Accessed Element: "+cs);
+        System.out.println("Removed Element: "+cs);
+        System.out.println("Updated Queue:  "+q);
+    }
+}
