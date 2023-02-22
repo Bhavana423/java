@@ -1,0 +1,11 @@
+import java.util.*;
+public class collection
+{
+    public static void main(String[]args){
+        Stack<String> cs=new Stack();
+        cs.push("Dog");
+        cs.push("Horse");
+        cs.push("Cat");
+        System.out.println("Stack: " +cs);
+    }
+}
