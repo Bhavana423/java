@@ -1,0 +1,20 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        ArrayDeque<String> cs=new ArrayDeque();
+        cs.add("Dog");
+        cs.add("Cat");
+        cs.add("Cow");
+        cs.add("Horse");
+        System.out.println("ArrayDeque:  "+cs);
+        String sv=cs.remove();
+        System.out.println("Removed Element:  "+sv);
+        System.out.println("New ArrayDeque:   "+sv);
+        String r1=cs.removeFirst();
+        System.out.println("Removed First Element:  "+r1);
+        String r2=cs.removeLast();
+        System.out.println("Removed Last Element: "+r2);
+    }
+}
