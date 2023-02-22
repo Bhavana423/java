@@ -1,0 +1,14 @@
+import java.util.*;
+public class Main
+{
+    public static void main(String[]args)
+    {
+        Stack<String> cs=new Stack();
+        cs.push("Dog");
+        cs.push("Horse");
+        cs.push("Cat");
+        System.out.println("Initial Stack: "+cs);
+        System.out.println("Removed Element: "+cs.peek());
+        cs.pop();
+    }
+}
